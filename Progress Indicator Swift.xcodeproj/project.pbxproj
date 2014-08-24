@@ -13,6 +13,7 @@
 		370BE1ED19A8C15E00B56309 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 370BE1EC19A8C15E00B56309 /* Images.xcassets */; };
 		370BE1F919A8C15E00B56309 /* Progress_Indicator_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370BE1F819A8C15E00B56309 /* Progress_Indicator_SwiftTests.swift */; };
 		370BE20319A8C1CE00B56309 /* ProgressIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370BE20219A8C1CE00B56309 /* ProgressIndicator.swift */; };
+		3761150619AA171900DED361 /* example.png in Resources */ = {isa = PBXBuildFile; fileRef = 3761150519AA171900DED361 /* example.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		370BE1F719A8C15E00B56309 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		370BE1F819A8C15E00B56309 /* Progress_Indicator_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Progress_Indicator_SwiftTests.swift; sourceTree = "<group>"; };
 		370BE20219A8C1CE00B56309 /* ProgressIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressIndicator.swift; sourceTree = "<group>"; };
+		3761150519AA171900DED361 /* example.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = example.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		370BE1E319A8C15E00B56309 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3761150519AA171900DED361 /* example.png */,
 				370BE1E419A8C15E00B56309 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -191,6 +194,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3761150619AA171900DED361 /* example.png in Resources */,
 				370BE1EB19A8C15E00B56309 /* Main.storyboard in Resources */,
 				370BE1ED19A8C15E00B56309 /* Images.xcassets in Resources */,
 			);
@@ -398,6 +402,7 @@
 				370BE1FE19A8C15E00B56309 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		370BE1FF19A8C15E00B56309 /* Build configuration list for PBXNativeTarget "Progress Indicator SwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -406,6 +411,7 @@
 				370BE20119A8C15E00B56309 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
