@@ -12,6 +12,7 @@
 		370BE1EB19A8C15E00B56309 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 370BE1E919A8C15E00B56309 /* Main.storyboard */; };
 		370BE1ED19A8C15E00B56309 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 370BE1EC19A8C15E00B56309 /* Images.xcassets */; };
 		370BE1F919A8C15E00B56309 /* Progress_Indicator_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370BE1F819A8C15E00B56309 /* Progress_Indicator_SwiftTests.swift */; };
+		370BE20319A8C1CE00B56309 /* ProgressIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370BE20219A8C1CE00B56309 /* ProgressIndicator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		370BE1F219A8C15E00B56309 /* Progress Indicator SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Progress Indicator SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		370BE1F719A8C15E00B56309 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		370BE1F819A8C15E00B56309 /* Progress_Indicator_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Progress_Indicator_SwiftTests.swift; sourceTree = "<group>"; };
+		370BE20219A8C1CE00B56309 /* ProgressIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressIndicator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 		370BE1E219A8C15E00B56309 /* Progress Indicator Swift */ = {
 			isa = PBXGroup;
 			children = (
+				370BE20219A8C1CE00B56309 /* ProgressIndicator.swift */,
 				370BE1E519A8C15E00B56309 /* AppDelegate.swift */,
 				370BE1E719A8C15E00B56309 /* ViewController.swift */,
 				370BE1E919A8C15E00B56309 /* Main.storyboard */,
@@ -208,6 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				370BE1E819A8C15E00B56309 /* ViewController.swift in Sources */,
+				370BE20319A8C1CE00B56309 /* ProgressIndicator.swift in Sources */,
 				370BE1E619A8C15E00B56309 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
